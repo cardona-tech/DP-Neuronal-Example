@@ -43,10 +43,15 @@ cd DP-Neuronal-Example
 ```bash
 python models/NumericalTraining.py
 ```
+
+3. Selecciona una opción del menú:
+   - **1. Entrenar modelo**: Entrena el modelo con un número específico de épocas.
+   - **2. Usar modelo para predecir**: Ingresa un número y obtén una predicción.
+   - **3. Salir**: Termina el programa.
 <details>
-<summary> 
-  <h3><b>Ejemplo de salida</b></h3> (Click to expand!)
-</summary>
+<summary><b>Ejemplo de salida</b> (Click para expandir)</summary>
+
+```text
 --- Menu ---
 1. Train model
 2. Use model to predict
@@ -82,12 +87,8 @@ Epoch 9500, Loss: 0.000221, LR: [1.953125e-06]
 Select an option:  2
 Enter a number:  10
 Model prediction: 39.96
+```
 </details>
-
-3. Selecciona una opción del menú:
-   - **1. Entrenar modelo**: Entrena el modelo con un número específico de épocas.
-   - **2. Usar modelo para predecir**: Ingresa un número y obtén una predicción.
-   - **3. Salir**: Termina el programa.
 
 ## Estructura del proyecto
 
@@ -99,7 +100,6 @@ DP-Neuronal-Example/
 ├── models/
 │   └── NumericalTraining.py       # Código principal de la red neuronal
 ├── README.md                      # Este archivo (guía del proyecto)
-├── requirements.txt               # Lista de dependencias (opcional)
 └── LICENSE                        # Licencia del proyecto (opcional)
 ```
 ## ¿Cómo funciona la red neuronal?
